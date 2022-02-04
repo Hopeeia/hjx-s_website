@@ -1,78 +1,47 @@
-.topbar{
-    height: 60px;
+.bg{
+    height: 1080px;
+    background-image: linear-gradient(to bottom right,rgb(69, 2, 177),rgb(94, 24, 134));
 }
 
-.topbar_text1{
-    font-size: 13px;
-    padding: 24px 12px;
-    float: left;
+*{
+    perspective: 800px;
 }
 
-.topbar_text2{
-    font-size: 13px;
-    padding: 24px 12px;
-    float: right;
-}
-.topbar_img{
-    padding: 16px 12px;
-    float: right;
-}
-.top{
+.card{
+    width:250px;
+    height: 444px;
+    border-radius: 30px;
+    position: relative;
+    top: 200px;
     margin: 0 auto;
-    width: 654px;
-    height: 254px;
-}
-.head{
-
-    width: 654px;
-    height: 188px;
+    background-color: rgb(145, 145, 145);
+    box-shadow:10px 10px 5px rgb(44, 44, 44) ;
+    transition: 2s;
+    
 }
 
-.titleimg{
-    margin-left: 96px;
-    width: 270px;
+ /* @keyframes Roll{
+    from{
+        
+        transform: rotateY(0deg);
+    }
+    to{
+       
+        transform: rotateY(180deg);
+    }
+} */
+.card:hover{
+    /* animation-name:Roll;
+    animation-duration:2s;
+    animation-delay: 0s;
+    animation-direction: alternate; */
+    transform: translateZ(100px) rotateY(180deg);
+    /* animation-iteration-count: 2; */
 }
 
-.search{
-    width:550px;
-    height: 40px;
-    border-top-left-radius:10px ;
-    border-bottom-left-radius: 10px;
-    border: 2px #6b6bdf solid;
-    float: left;
-}
 
-.search2{
-    background-color: #6b6bdf;
-    width:100px;
-    height: 44px;
-    border-top-right-radius:10px ;
-    border-bottom-right-radius: 10px;
-    float: left;
-}
+.text{
+    position: relative;
+    top: 100px;
 
-.text1{
-    color: white;
-    margin-left: 14px;
-    margin-top: 14px;
-}
-
-.news{
-    height: 330px;
-    margin: 0 106.5px;
-    padding-top:14px ;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-.bottom{
-    height: 50px;
-}
-
-.text2{
-    color: rgb(145, 145, 145);
-    margin-top: 10px;
-    margin-right: 45px;
-    font-size: 10px;
-    float: left;
 }
