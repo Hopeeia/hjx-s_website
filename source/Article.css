@@ -1,0 +1,97 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+*::selection{
+	color:pink;
+}
+
+body{
+    width: 100%;  
+    height: 100%; 
+    background-image: url(./bg2.jfif)
+
+}
+
+.bgbig{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    background-color: rgba(70, 70, 70, 0.466);
+
+}
+
+
+.bglittle{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(70, 70, 70, 0.466);
+
+}
+
+.title{
+
+    margin: 0 auto;
+    width: 90%;
+    height: 100px;
+    color: rgba(184, 184, 184, 0.863);
+    font-size: 80px;
+
+}
+
+.T{
+    border-left: 7px rgb(47, 105, 13) solid;
+
+}
+.author{
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+    top: -40px;
+    
+}
+
+.A{
+    position: relative;
+    top: -40px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+
+    line-height: 30px;
+    /* ;行高 */
+
+    color: rgb(4, 37, 10);
+
+    background-color: rgba(172, 172, 172, 0.514);
+    border-radius: 30px;
+
+
+}
+
+.righttext{
+    text-align: right;
+}
+
+.middle{
+    text-align: center;
+}
+
+.bottom{
+    height: 150px;
+    width: 100%;
+}
+
+.subtitle{
+    font-size: 20px;
+    text-align: center;
+    
+}

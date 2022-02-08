@@ -9,7 +9,10 @@ body{
     background-image: url(./background.jfif);
 
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .bg{
     margin: 0 auto;
@@ -187,3 +190,4 @@ body{
     top:50px;
     left: 40px;
 }
+
